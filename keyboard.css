@@ -1,0 +1,16 @@
+body {
+  text-align: center !important;
+  margin: auto;
+}
+.btn {
+  background-color: rgb(155, 187, 214);
+}
+#keyboard .btn {
+  border: solid black 1px;
+  font-size: 24px;
+  margin: 4px;
+  min-width: 50px;
+}
+
+
+

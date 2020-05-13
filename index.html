@@ -10,11 +10,25 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="keyboard.css" />
     <link rel="stylesheet" href="piano.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   </head>
   <body>
+    <h1>Play Musical Keyboard</h1>
+    <h6>Click Buttons or Press Keys</h6>
+    <div id="keyboard">
+      <div
+        class="btn group"
+        id="keyboard"
+        role="group"
+        aria-label="Basic example"
+      >
+        <div id="keys"></div>
+      </div>
+    </div>
+    <hr />
     <h1>Play Mini Piano</h1>
     <h6>Click keyboard to Play</h6>
     <ul id="piano">
@@ -32,8 +46,9 @@
       <li class="white b" id="B"></li>
     </ul>
     <hr />
-
+    <script src="tone.js"></script>
     <script src="piano.js"></script>
+    <script src="keyboard.js"></script>
     <script src="audiosynth.js"></script>
   </body>
 </html>
