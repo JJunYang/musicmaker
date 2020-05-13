@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NoiseMaker</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-</head>
-<body>
-    <h1>hello</h1>
-    <button> </button>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="piano.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <h1>Play Mini Piano</h1>
+    <h6>Click keyboard to Play</h6>
+    <ul id="piano">
+      <li class="white c" id="C"></li>
+      <li class="black cs" id="C#"></li>
+      <li class="white d" id="D"></li>
+      <li class="black ds" id="D#"></li>
+      <li class="white E" id="E"></li>
+      <li class="white F" id="F"></li>
+      <li class="black fs" id="F#"></li>
+      <li class="white g" id="G"></li>
+      <li class="black gs" id="G#"></li>
+      <li class="white a" id="A"></li>
+      <li class="black as" id="A#"></li>
+      <li class="white b" id="B"></li>
+    </ul>
+    <hr />
 
-
+    <script src="piano.js"></script>
     <script src="audiosynth.js"></script>
-</body>
+  </body>
 </html>
