@@ -1,7 +1,7 @@
 ## Musicmaker
 [MusicMaker](https://jjyang1108.github.io/musicmaker/)
 
-This project was created in response to the noicemaker challenge!
+This project was created in response to the Mintbean Hackathons noicemaker challenge!
 
 #### Musical keyboard
 
